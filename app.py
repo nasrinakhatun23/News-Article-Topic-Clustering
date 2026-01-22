@@ -7,8 +7,10 @@ from nltk.tokenize import word_tokenize
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
 
-nltk.download('punkt')
-nltk.download('stopwords')
+
+nltk.download('punkt', quiet=True)
+nltk.download('punkt_tab', quiet=True)
+nltk.download('stopwords', quiet=True)
 
 st.title("📰 News Article Topic Clustering")
 
