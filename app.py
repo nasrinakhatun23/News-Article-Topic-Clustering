@@ -10,7 +10,7 @@ from sklearn.cluster import KMeans
 nltk.download('punkt')
 nltk.download('stopwords')
 
-st.title("📰 News Topic Clustering")
+st.title("📰 News Article Topic Clustering")
 
 file = st.file_uploader("Upload CSV file", type="csv")
 
